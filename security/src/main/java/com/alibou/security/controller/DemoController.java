@@ -5,7 +5,6 @@ import com.alibou.security.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,7 +22,6 @@ public class DemoController {
 
 
     @GetMapping("{id}")
-    @PreAuthorize("hasAnyRole('ROLE_USER')")
     public ResponseEntity<User> getUserCredentials(@PathVariable Integer id) {
         User user = repository.findById(id).orElseThrow(() -> {
             throw new UsernameNotFoundException("Username not found email");
@@ -32,9 +30,8 @@ public class DemoController {
     }
 
     @GetMapping
-    @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
     public ResponseEntity<List<User>> getAllUser() {
-        return new ResponseEntity<>(repository.findAll(),HttpStatus.FOUND);
+        return new ResponseEntity<>(repository.findAll(), HttpStatus.FOUND);
     }
 
 
