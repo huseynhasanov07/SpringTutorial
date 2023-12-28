@@ -1,0 +1,13 @@
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/entity/OrderAddressEntity.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/entity/OrderEntity.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/adapter/CustomerRepositoryImpl.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/restaurant/mapper/RestaurantDataAccessMapper.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/adapter/OrderRepositoryImpl.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/entity/OrderItemEntityId.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/mapper/OrderDataAccessMapper.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/entity/CustomerEntity.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/mapper/CustomerDataAccessMapper.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/entity/OrderItemEntity.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/repository/CustomerJpaRepository.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/restaurant/adapter/RestaurantRepositoryImpl.java
+/Users/huseyn007/Downloads/food-ordering-system 2/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/repository/OrderJpaRepository.java

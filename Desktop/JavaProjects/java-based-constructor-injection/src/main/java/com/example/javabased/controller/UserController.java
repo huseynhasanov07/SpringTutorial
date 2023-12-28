@@ -1,7 +1,6 @@
 package com.example.javabased.controller;
 
 import com.example.javabased.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class UserController {
     private final UserService userService;
@@ -12,20 +11,20 @@ public class UserController {
     }
 
     public void createUser() {
-         userService.createUser();
+        userService.createUser();
     }
 
     public void updateUser() {
-         userService.updateUser();
+        userService.updateUser();
     }
 
 
     public void findUser() {
-         userService.findUser();
+        userService.findUser();
     }
 
     public void deleteUser() {
-         userService.deleteUser();
+        userService.deleteUser();
     }
 
 }
